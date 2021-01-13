@@ -9,7 +9,7 @@
 	
 	<select id="select" parameterType="string" resultType="blogvo">
 		<![CDATA[
-			select id, title, logo from blog where id = #{id}
+			sselect id, title, logo from blog where id = #{id}
 		]]>
 	</select>
 	
