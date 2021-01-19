@@ -92,7 +92,7 @@
 
 	<build>
 		<finalName>${artifactId}</finalName>
-		<sourceDirectory>/src/main/java</sourceDirectory>
+		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
 			<resource>
 				<directory>${project.basedir}/src/main/resources</directory>
@@ -121,7 +121,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://192.168.1.41:8080/manager/text</url>
-					<path>${artifactId}</path>
+					<path>/${artifactId}</path>
 					<username>admin</username>
 					<password>manager</password>
 				</configuration>
