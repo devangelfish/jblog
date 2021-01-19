@@ -6,6 +6,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>jblog05</artifactId>
+	<packaging>war</packaging>
 
 	<dependencyManagement>
 		<dependencies>
